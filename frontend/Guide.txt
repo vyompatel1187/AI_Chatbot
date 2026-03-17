@@ -1,3 +1,11 @@
+download ollama model 
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+after installation in terminal check -> ollama --version
+
+in your terminal type -> ollama run llama3
+
 First start backend server:
 cd backend
 python -m venv venv
@@ -6,7 +14,7 @@ pip install -r requirements.txt
 
 
 cd backend
-uvicorn main:app --reload   
+uvicorn main:app --reload  
 
 Then start frontend server:
 
